@@ -9,6 +9,8 @@ Simple GRUB theme inspired by the lightdm-webkit2 theme [Aether](https://github.
 
 ***
 ## Design
+![](../screenshots/demo.gif)
+
 These colours were used for the following images:
 | Files | Colour (Hex) | Alpha |
 | ----- | ------------ | ----- |
