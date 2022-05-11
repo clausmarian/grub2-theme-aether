@@ -1,0 +1,43 @@
+desktop-image: "background.png"
+desktop-color: "#000000"
+title-text: "Select a boot option"
+title-font: "Display Bold 24"
+title-color: "#eff0f1"
+terminal-font: "Console Bold 16"
+terminal-left: "0%"
+terminal-top: "0%"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+  left = 20%
+  top = 30%
+  width = 60%
+  height = 40%
+  menu_pixmap_style = "boot_menu_*.png"
+  item_height = 64  
+  item_padding = 6
+  item_spacing = 6 
+  item_icon_space = 16
+  item_font = "Display Bold 24"
+  item_color = "#eff0f1"
+  selected_item_color = "#eff0f1"
+  selected_item_pixmap_style = "select_*.png"
+  icon_width = 48
+  icon_height = 48
+  scrollbar = true
+  scrollbar_width = 10
+  scrollbar_thumb = "slider_*.png"
+}
+
++ label {
+  left = 35%
+  top = 70%
+  width = 30%
+  id = "__timeout__"
+  align = "center"
+  text = "Booting in %ds"
+  color = "#eff0f1"
+  font = "Display Bold 24"
+}
