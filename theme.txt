@@ -1,4 +1,4 @@
-desktop-image: "background.png"
+desktop-image: "images/background.png"
 desktop-color: "#000000"
 title-text: "Select a boot option"
 title-font: "Display Bold 24"
@@ -15,7 +15,7 @@ terminal-border: "0"
   top = 30%
   width = 60%
   height = 40%
-  menu_pixmap_style = "boot_menu_*.png"
+  menu_pixmap_style = "images/boot_menu_*.png"
   item_height = 64  
   item_padding = 6
   item_spacing = 6 
@@ -23,12 +23,12 @@ terminal-border: "0"
   item_font = "Display Bold 24"
   item_color = "#eff0f1"
   selected_item_color = "#eff0f1"
-  selected_item_pixmap_style = "select_*.png"
+  selected_item_pixmap_style = "images/select_*.png"
   icon_width = 48
   icon_height = 48
   scrollbar = true
   scrollbar_width = 10
-  scrollbar_thumb = "slider_*.png"
+  scrollbar_thumb = "images/slider_*.png"
 }
 
 + label {
